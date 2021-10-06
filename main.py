@@ -2,13 +2,14 @@
 
 def countA(w):
 
-    w = 1
+    x = 0
 
     for i in range(w, len(w)):
         total = total * i
     
     if w[i] == "anteater":
         return a
+    else:
+        return w
 
-
-print(countA(anteater))
+print(countA("anteater"))
