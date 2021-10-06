@@ -1,12 +1,14 @@
 #WRITE YOUR CODE IN THIS FILE
 
-def countA():
+def countA(w):
 
-    total = 1
+    w = 1
 
-    for i in range(1, x +1):
+    for i in range(1, len(w)):
         total = total * i
-    return total
+    
+    if w[i] == "a":
+        return a
 
 
-print(countA(5))
+print(countA(anteater))
