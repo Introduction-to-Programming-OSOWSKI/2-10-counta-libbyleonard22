@@ -5,11 +5,7 @@ def countA(w):
     total = 0
 
     for i in range(0, len(w)):
-        total = total * i
-    
-    if w[i] == "armadillo":
-        return a
-    else:
-        return w
+        if w[i] == "a":
+            return "a"
 
 print(countA("armadillo"))
